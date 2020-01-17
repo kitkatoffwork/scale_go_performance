@@ -1,10 +1,10 @@
 # scale_go_performance
 scale the performance of Go language, comparing with rails and so on ...
 
-# Environment for development
+## Environment for development
 How to build the environment for development of Go language ...
-## CentOS7
-### 1. install Go lang
+### CentOS7
+#### 1. install Go lang
 ```bash
 # 2020/01/18
 $ sudo yum install epel-release
@@ -16,7 +16,7 @@ $ go version
 go version go1.13.3 linux/amd64
 ```
 
-### 2. setup environment-value for calling Go
+#### 2. setup environment-value for calling Go
 ```bash
 $ mkdir working-directory-path-as-you-like(☆)
 $ vim ~/.bash_profile
@@ -27,7 +27,7 @@ export PATH=$GOPATH/bin:$PATH
 
 $ source ~/.bash_profile
 ```
-### 3. test Run
+#### 3. test Run
 ```bash
 # Run Go file
 $ go run filename.go
