@@ -37,3 +37,11 @@ $ go build filename.go
 ```
 
 > refer to -> [CentOS 7にyumでGoを入れてHello Worldするまで](https://qiita.com/nooboolean/items/11805928527aeb576c21)
+
+#### 4. install API library - Gin
+
+
+```bash
+$ go get -u github.com/gin-gonic/gin
+```
+
